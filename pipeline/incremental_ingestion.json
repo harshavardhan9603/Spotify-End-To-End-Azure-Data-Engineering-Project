@@ -69,7 +69,7 @@
 						"parameters": {
 							"cointainer": "bronze",
 							"folder": {
-								"value": "@{pipeline().parameters.table}_cdc",
+								"value": "@{pipeline().parameters.table}",
 								"type": "Expression"
 							},
 							"file": {
